@@ -13,9 +13,10 @@ the problem(our array input) into subproblems; i.e n/k subproblems.
 
 >2.**We perform an insertion sort procedure at length k, that is 2<=n<=43**  
 >At this step, the problem is nolonger being divided into subproblems but sorted via insertion sort which runs faster.  
->Consider: *insertion sort running at 8n^2 and merge sort running at 64(nlgn) and log is to the base 2.*
+>Consider: *insertion sort running at 8n^2 and merge sort running at 64(nlgn) and log is to the base 2.*  
+
 >3.**Searching for insertion positions**. Here we replace the linear scanning for position lookups of 
 sorted array A[1..j-1] to insert A[j] in insertion procedure above with binary probing technique to exploit 
 the log~2~n running time when finding the positions.  
   
->**Merge back the subproblems into one final solution of the overall problem.***
+>4.**Merge back the subproblems into one final solution of the overall problem.***
