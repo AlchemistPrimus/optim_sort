@@ -45,7 +45,6 @@ fn merge(left: &[usize], right: &[usize]) -> Vec<usize>{
     collection
 }
 
-
 fn sort_leaf(collection: &mut [usize]) -> &[usize] {
     // Returns a sorted sequence. Sorts via insertion.
     for i in 1..collection.len(){
